@@ -9,7 +9,8 @@ namespace TS3CustomLauncher
     // Clase para almacenar la configuración
     public class Configuration
     {
-        public string RutaExe { get; set; }
+        public string RutaEjecutarExe { get; set; }
+        public string RutaPrioridadExe { get; set; }
         public string Prioridad { get; set; }
         public string RutaCarpetaPantallaMods { get; set; }
 
@@ -41,9 +42,13 @@ namespace TS3CustomLauncher
                 string key = parts[0].Trim();
                 string value = parts[1].Trim();
 
-                if (key.Equals("RutaExe", StringComparison.OrdinalIgnoreCase))
+                if (key.Equals("RutaEjecutarExe", StringComparison.OrdinalIgnoreCase))
                 {
-                    config.RutaExe = value;
+                    config.RutaEjecutarExe = value;
+                }
+                else if (key.Equals("RutaPrioridadExe", StringComparison.OrdinalIgnoreCase))
+                {
+                    config.RutaPrioridadExe = value;
                 }
                 else if (key.Equals("Prioridad", StringComparison.OrdinalIgnoreCase))
                 {

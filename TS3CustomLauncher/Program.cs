@@ -12,7 +12,7 @@ namespace TS3CustomLauncher
         {
             // Cargar la configuración desde el archivo config.txt (debe estar en el mismo directorio que el ejecutable)
             Configuration config = Configuration.ReadConfiguration("config.txt");
-            if (config == null || string.IsNullOrEmpty(config.RutaExe) || string.IsNullOrEmpty(config.Prioridad))
+            if (config == null || string.IsNullOrEmpty(config.RutaEjecutarExe) || string.IsNullOrEmpty(config.Prioridad) || string.IsNullOrEmpty(config.RutaPrioridadExe) || string.IsNullOrEmpty(config.RutaCarpetaPantallaMods))
             {
                 // Si ocurre un error o no se han definido los parámetros, terminamos la aplicación.
                 Console.WriteLine("Error: No se pudo cargar la configuración");
@@ -27,9 +27,7 @@ namespace TS3CustomLauncher
             {
                 ProcessStartInfo psi = new ProcessStartInfo
                 {
-                    FileName = config.RutaExe,
-                    UseShellExecute = true,
-                    CreateNoWindow = true // Mantiene oculta la ventana del proceso lanzado.
+                    FileName = config.RutaEjecutarExe
                 };
 
                 Process.Start(psi);
@@ -43,7 +41,7 @@ namespace TS3CustomLauncher
             Console.WriteLine("Esperando a que se inicie el juego...");
 
             // Espera a que el proceso se inicie, comprobándolo cada 5 segundos.
-            string processName = Path.GetFileNameWithoutExtension(config.RutaExe);
+            string processName = Path.GetFileNameWithoutExtension(config.RutaPrioridadExe);
             Process[] processes = Process.GetProcessesByName(processName);
             while (processes == null || processes.Length == 0)
             {

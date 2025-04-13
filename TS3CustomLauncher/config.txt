@@ -1,4 +1,5 @@
-RutaExe=F:\SteamLibrary\steamapps\common\The Sims 3\Game\Bin\TS3W.exe
+RutaEjecutarExe=D:\Program Files (x86)\Origin Games\The Sims 3\Game\Bin\Sims3Launcher.exe
+RutaPrioridadExe=D:\Program Files (x86)\Origin Games\The Sims 3\Game\Bin\TS3.exe
 
 RutaCarpetaPantallaMods=C:\Users\retbe\Documents\Electronic Arts\Los Sims 3\Mods\Packages\Pantalla Carga
 
