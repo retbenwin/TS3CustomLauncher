@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="config.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-Base.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep1.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep10.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep2.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep3.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep4.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep5.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep6.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep7.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep8.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-ep9.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp1.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp2.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp3.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp4.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp5.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp7.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp8.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp9.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LoadingScreens\" />
+  </ItemGroup>
+
+</Project>

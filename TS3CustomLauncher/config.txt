@@ -1,0 +1,6 @@
+RutaExe=F:\SteamLibrary\steamapps\common\The Sims 3\Game\Bin\TS3W.exe
+
+RutaCarpetaPantallaMods=C:\Users\retbe\Documents\Electronic Arts\Los Sims 3\Mods\Packages\Pantalla Carga
+
+Prioridad=High
+--Prioridad=RealTime
