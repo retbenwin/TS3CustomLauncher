@@ -11,6 +11,50 @@
     <None Update="config.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="LoadingScreens\base.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep1.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep10.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep2.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep3.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep4.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep5.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep6.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep7.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep8.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\ep9.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
     <None Update="LoadingScreens\Simm%40_LScreenEP11ver-Base.package">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
@@ -84,6 +128,38 @@
       <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
     </None>
     <None Update="LoadingScreens\Simm%40_LScreenEP11ver-sp9.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp1.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp2.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp3.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp4.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp5.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp7.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp8.package">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
+    </None>
+    <None Update="LoadingScreens\sp9.package">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CustomToolNamespace>LoadingScreens</CustomToolNamespace>
     </None>

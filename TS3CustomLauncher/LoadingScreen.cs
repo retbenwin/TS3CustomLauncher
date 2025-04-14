@@ -42,8 +42,17 @@ namespace TS3CustomLauncher
 
             // Seleccionar de forma aleatoria una imagen.
             Random rnd = new Random();
-            int index = rnd.Next(imageFiles.Length);
-            string selectedImage = imageFiles[index];
+            int index = rnd.Next(imageFiles.Length + 1);
+            string selectedImage;
+
+            if (index >= imageFiles.Length)
+            {
+                selectedImage = "INTO_THE_FUTURE";
+            }
+            else
+            {
+                selectedImage = imageFiles[index];
+            }
 
             // Mostrar mensaje informativo (puede ser útil para depuración).
             Console.WriteLine("Pantalla de carga seleccionada: " + selectedImage);
@@ -55,10 +64,13 @@ namespace TS3CustomLauncher
                 {
                     File.Delete(file);
                 }
-                string rutaFinal = Path.Combine(config.RutaCarpetaPantallaMods, Path.GetFileName(selectedImage));
-                // Copiar (o sobreescribir) la imagen seleccionada en la ruta que utiliza el mod.
-                // El parámetro 'true' indica que se sobreescribe el archivo si ya existe.
-                File.Copy(selectedImage, rutaFinal, true);
+                if (selectedImage != "INTO_THE_FUTURE")
+                {
+                    string rutaFinal = Path.Combine(config.RutaCarpetaPantallaMods, Path.GetFileName(selectedImage));
+                    // Copiar (o sobreescribir) la imagen seleccionada en la ruta que utiliza el mod.
+                    // El parámetro 'true' indica que se sobreescribe el archivo si ya existe.
+                    File.Copy(selectedImage, rutaFinal, true);
+                }
 
                 // Confirmación de que se ha realizado la copia.
                 Console.WriteLine("La pantalla de carga ha sido actualizada.");
